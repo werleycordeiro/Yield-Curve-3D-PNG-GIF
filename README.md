@@ -1,7 +1,4 @@
 # US Yield Curve 3D
-![]()
-
-![hyper](https://github.com/werleycordeiro/Yield-Curve-3D/blob/master/USYieldCurve3D.gif)
 <p align="center">
 <img src="https://github.com/werleycordeiro/Yield-Curve-3D/blob/master/USYieldCurve3D.gif"/>
 </p>
