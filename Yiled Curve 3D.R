@@ -1,6 +1,5 @@
 data<-read.csv("https://www.dropbox.com/s/inpnlugzkddp42q/bonds.csv?dl=1",header = TRUE, sep = ";")
 library(xts)
-data <- read.csv("bonds.csv",header = TRUE, sep = ";")
 data <- as.matrix(data[,which(names(data)=="M3"):which(names(data)=="M120")])
 datas	<- seq(as.Date("1972/1/1"), by = "month", length.out = 348)
 juros	<- xts(data, order.by = datas)
